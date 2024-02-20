@@ -1,0 +1,30 @@
+
+
+
+How did we install the virtual environment?!?
+
+I will tell you (slightly different from lecture video):
+
+
+from CMD, type python -m venv venv
+(the second venv is what we are naming the virtual environment)
+
+
+To activate it (start using the virtual environment):
+
+cmd:
+venv\Scripts\activate
+
+then activate conda, as well
+cmd:
+conda activate
+(you'll see (base) (venv) in cmd line if done correctly)
+
+Then start installing things:
+create a requirements.txt into the main project folder
+copy everything from the provided requirements.txt file
+cmd: pip install -r requirements.txt
+(pip freeze > requirements.txt will show/check all software installed)
+
+(the host server will look for the requirements.txt for everything needed to be installed)
+
